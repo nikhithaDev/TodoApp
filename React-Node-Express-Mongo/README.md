@@ -48,12 +48,12 @@ This is a starter template for building applications using React for the fronten
  
 1. Clone the repository:
     ```bash
-    git clone https://github.com/AppAnySite/BBlocks.git
+    git clone https://github.com/nikhithaDev/TodoApp.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd BBlocks/React-Node-Express-Mongo
+    cd TodoApp/React-Node-Express-Mongo
     ```
 
 3. Install dependencies for the client:
@@ -71,7 +71,7 @@ This is a starter template for building applications using React for the fronten
     cd backend
     ```
 
-6. Replace the placeholder `<username>`, `<password>`, and `<cluster_name>` in the `DB_CONNECTION_STRING` environment variable with your own MongoDB connection string. Open the `.env` file and update the following line:
+6. Replace the placeholder `<username>`, `<password>`, and `<cluster_name>` in the `DB_CONNECTION_STRING` environment variable with your own MongoDB connection string.The credentials that you are previously noted down will be useful here  . Open the `.env` file and update the following line:
     ```
     DB_CONNECTION_STRING=mongodb+srv://<username>:<password>@<cluster_name>/TodoApp
     ```
